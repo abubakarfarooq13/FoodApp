@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 const mongoURI =
-  "mongodb+srv://abubakarfarooq13:strugler1122A@merncluster.28nfvuv.mongodb.net/GoFood?retryWrites=true&w=majority";
+  "mongodb+srv://abubakarfarooq13:@merncluster.28nfvuv.mongodb.net/GoFood?retryWrites=true&w=majority";
 const mongoDB = async () => {
   await mongoose.connect(mongoURI, async (err, result) => {
     if (err) console.log(err);
